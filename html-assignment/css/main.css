@@ -36,6 +36,5 @@ nav  li a {
 }
 /* Change the background colour on hover or focus state of the links */
 a:hover{
-    font-size: 20px;
-    font-weight:800;
+   background-color: chocolate;
 }
