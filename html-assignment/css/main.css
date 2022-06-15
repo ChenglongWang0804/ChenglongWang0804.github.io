@@ -18,7 +18,7 @@ ul li{
     list-style-type: square;
 }
 
-li:nth-child(2){
+li:nth-child(odd){
     background-color: yellowgreen;
 }
 
