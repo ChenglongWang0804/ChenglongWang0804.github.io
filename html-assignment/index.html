@@ -5,14 +5,26 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
      <title>HTML semantics</title>
+     <link rel="stylesheet" href="css/main.css">
     </head>
     <body>
         <header>
-            <h1>Chenglong(James) Wang</h1>
+            <h1 class="site-title">Chenglong(James) Wang</h1>
+        
         </header>
+        <nav>
+            <!-- can I use section instand of nav ? why shoud I use the nav tag?  -->
+            <ul>
+                <li>
+                    <a href="notes.html" target="_blank">
+                        go to notes
+                       </a>
+                </li>
+            </ul>
+         </nav>
         <article>
             <h2> About Me</h2>
-            <img src="images/summer_me.jpg" alt="june 12 2022">
+            <img id="my-image" src="images/summer_me.jpg" alt="june 12 2022">
             <p>
                 I am a student in Algonquin College. My passion is to assist others by programming.
                 My job was to maintain financial system. If an issue or defect is encountered by my clients, I have to resolve it with my team as soon as possible.
@@ -32,17 +44,16 @@
                 </blockquote>
                 <!--line break -->
                  <p>
-                    The logarithmic function <strong>
+                    The logarithmic function 
+                    <strong>
                         y = log<sub>a</sub>x 
-                    </strong> is defined to be equivalent to the exponential equation
+                    </strong> 
+                    is defined to be equivalent to the exponential equation
                     <strong>
                         x = a<sup>y</sup>
-                    </strong>
-                       <a href="notes.html" target="_blank">
-                        <strong>
-                            go to notes
-                        </strong></a>
+                    </strong>        
                  </p>
+                
                  <em>Thank you for coming</em> 
                  <abbr title="have a nice day"><br>HAND</abbr>
         </article>
