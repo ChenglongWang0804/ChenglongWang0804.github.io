@@ -97,15 +97,26 @@ main .form form {
     padding: 1rem;
 }
 
-main input {
+main section div input {
     display: block;
     margin: .5rem 0;
     width:100%;
     border: #d8eef0;
 }
+
 input[name=message]{
     height: 6rem;
     border: 1px solid grey;
+}
+
+input[type=radio]{
+     height: .5rem;
+}
+button{
+display: block;
+line-height: 1rem;
+text-align: center;
+font-size: .5rem;
 }
 footer{
     text-align: end;
