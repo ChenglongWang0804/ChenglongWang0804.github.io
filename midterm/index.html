@@ -44,20 +44,19 @@
          <h2>contanct to learn more</h2>
          <form action="#" method="post" id="startfish_form">
          <div>
-          
-                <label for="name">Your Name</label><input type="text" id="name">
-                <label for="email">Your email</label><input type="email" id="email">
+                <label for="name">Your Name</label><input type="text" id="name" name="name">
+                <label for="email">Your email</label><input type="email" id="email" name="email">
                 <label for="message">Your message</label>
-                <input id="message" type="text">
+                <input id="message" type="text" name="message">
          </div>
          <h3>Would you like to visit the starfish?</h3>
          <label for="yes">Yes</label>
-         <input type="radio" id="yes">
+         <input type="radio" id="yes" name="wouldYouLike">
          <label for="no">No</label>
-         <input type="radio" id="no">
+         <input type="radio" id="no" name="wouldYouLike">
          <label for="maybe">Maybe</label>
          <input type="radio" id="maybe">
-         <button type="submit" form="startfish_form">SEND</button>
+         <button type="submit" form="startfish_form" name="wouldYouLike">SEND</button>
          </form>
         </section>
     </main>
