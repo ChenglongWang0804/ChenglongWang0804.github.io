@@ -1,1 +1,114 @@
 /* decrible the code for what */
+html {
+    font-size: 16px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+* {
+    box-sizing: border-box;
+}
+body {
+    background-color: #aad4cf;
+}
+body>.wrapper{
+    margin: 0 auto .5rem;
+    max-width: 50rem;
+    background-color: #d8eef0; 
+    font-size: .7rem;
+    line-height: 1.1rem;
+    font-weight:bold;
+}
+/* position property is used to set the positon of text over an image. */
+header {
+    position:relative;
+}
+/* absolute elements are positioned relative to their parent(header) */
+header h1 {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    bottom: 4rem;
+    font-size: 3rem;
+    color: white;
+}
+
+header img {
+    display: block;
+    max-width: 100%;
+}
+
+nav {
+    text-align: center;
+    line-height: 1.5rem;
+    margin-bottom:1rem;
+}
+
+nav ul li {
+    /* what is inline-block? */
+    display: inline-block;
+    border-right: solid .1rem grey;
+    width: 30%; 
+}
+
+nav ul li:nth-child(3){
+    border: none;
+
+}
+
+nav a {
+    /* remove the underline from the links */
+    text-decoration: none; 
+    color: black;
+}
+
+main {
+    margin: 0 1rem;
+}
+h2 {
+    font-size: 1.5rem;
+    font-weight: 600;
+    margin: 1rem 0;
+}
+
+
+/* make the width of the image equite with the length of title */
+main article img{
+    max-width:15rem;
+    /*  */
+    float:left;
+    /* add a gap between the pargaph and image, the width of gap is 16px*/
+    margin:0 1rem 1rem 0;
+}
+
+.clearfix:after{
+    content:"";
+    display: block;
+    clear: both;
+}
+
+main .list li{
+    list-style-type:disc;
+    /* keep the 1rem equie  */
+    margin: 0 1rem;
+    line-height: 1rem;
+}
+
+main .form form {
+    border:solid .1rem black;
+    padding: 1rem;
+}
+
+main input {
+    display: block;
+    margin: .5rem 0;
+    width:100%;
+    border: #d8eef0;
+}
+input[name=message]{
+    height: 6rem;
+    border: 1px solid grey;
+}
+footer{
+    text-align: end;
+    height: 1.2rem;
+    margin-right: 1rem;
+}
