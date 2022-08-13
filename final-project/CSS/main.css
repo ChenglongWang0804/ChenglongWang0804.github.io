@@ -27,7 +27,7 @@ ul {
 }
 
 ul>li:nth-child(1),
-li:nth-child(2) {
+li:nth-child(2){
     background-color: #c78c06;
 }
 
@@ -115,7 +115,7 @@ main {
 
 main .about_us,
 section+.services>div,
-section article {
+section article,.operation thead{
     background-color: #ffe6ac;
 }
 
